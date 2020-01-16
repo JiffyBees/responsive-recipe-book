@@ -1,0 +1,103 @@
+html {
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content {
+  background-color: #495562;
+}
+
+.btn, .btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .content {
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .banner {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .btn-ghost {
+    border-color: #efefef;
+  }
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: museo-sans, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+header {
+  background-color: #d05c2e;
+  align-items: center;
+  color: #fff;
+}
+
+.branding {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: .5em 0;
+}
+
+.grain {
+  width: 40px;
+}
+
+.nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  border-bottom: 2px solid #a63f38;
+  border-top: 2px solid #a63f38;
+
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.nav li {
+  width: 33.3333%;
+  border-right: 2px solid #a63f38;
+}
+
+.nav li:last-child {
+  border: 0;
+}
+
+.nav a {
+  display: block;
+  padding: .4rem 0;
+  width: 100%;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
+}
