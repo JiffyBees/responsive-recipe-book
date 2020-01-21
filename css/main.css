@@ -5,35 +5,12 @@ html {
 }
 
 .content {
-  background-color: #495562;
+  background-color: #fff;
 }
 
 .btn, .btn-ghost {
   color: #fff;
   border-color: #97a49b;
-}
-
-@media only screen and (min-width: 60em) {
-
-  .content {
-    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
-    background-color: transparent;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-
-  .banner {
-    position: relative;
-    max-height: 500px;
-    overflow: hidden;
-  }
-
-  .btn-ghost {
-    border-color: #efefef;
-  }
-
 }
 
 *, *::before, *::after {
@@ -48,24 +25,21 @@ h1, h2 {
   margin: 0;
   font-family: museo-sans, sans-serif;
   text-align: center;
-  color: #fff;
+}
+
+h3 {
+  font-family: museo-sans, sans-serif;
+}
+
+.sub-h {
+  font-family: museo-sans, sans-serif;
+  font-weight: 100;
 }
 
 header {
   background-color: #d05c2e;
   align-items: center;
   color: #fff;
-}
-
-.branding {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: .5em 0;
-}
-
-.grain {
-  width: 40px;
 }
 
 .nav {
@@ -100,4 +74,88 @@ header {
 
 .nav a:hover {
   background-color: #a63f38;
+}
+
+.con-image {
+  background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.ban {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+
+
+.hover-box {
+  color: #fff;
+}
+
+.hover-box-caption {
+  bottom: -4em;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
+  transition: all .2s linear;
+}
+
+.hover-box:focus {
+  z-index: 10;
+}
+
+.hover-box:hover .hover-box-caption, .hover-box:focus .hover-box-caption {
+  bottom: 0;
+}
+
+.hover-box-img {
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img, .hover-box:focus .hover-box-img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.search {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../images/food-end.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b-w {
+  color: #fff;
+}
+
+.parallax-o {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
