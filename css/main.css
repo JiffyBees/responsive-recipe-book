@@ -51,6 +51,11 @@ header {
   box-shadow: 0 .1em .4em rgba(0, 0, 0, .5);
 }
 
+.action-card-ro {
+  border-radius: .6em;
+  overflow: hidden;
+}
+
 .con-image {
   background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
   background-color: transparent;
@@ -102,9 +107,23 @@ header {
   background-size: cover;
 }
 
+.parallax-5 {
+  background-position: center;
+  background-image: url("../images/ho-ho.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-6 {
+  background-position: center;
+  background-image: url("../images/pumkin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallax-3 {
   background-position: center;
-  background-image: url("../images/food-end.jpg");
+  background-image: url("../images/pie.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -130,10 +149,6 @@ header {
   border-color: white
 }
 
-.max-o {
-  max-width: 500px;
-}
-
 .align-t {
   align-content: right;
 }
@@ -145,6 +160,13 @@ header {
 }
 
 .btn {
+  background-color: #678AB9;
+  border-color: #678AB9;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+}
+
+.back-recipe {
   background-color: #678AB9;
   border-color: #678AB9;
   font-family: museo-sans, sans-serif;
@@ -185,6 +207,14 @@ header {
 
 .show-ho {
   display: block;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.hide-l {
+  display: none;
 }
 
 }
