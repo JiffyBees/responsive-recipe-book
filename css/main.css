@@ -1,7 +1,5 @@
 html {
   font-family: bely, serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .content {
@@ -30,6 +28,7 @@ h3 {
   font-family: museo-sans, sans-serif;
   font-weight: 100;
 }
+
 .sub-h-m {
   font-family: museo-sans, sans-serif;
   font-weight: 300;
@@ -146,11 +145,7 @@ header {
 
 .b-w {
   color: #fff;
-  border-color: white
-}
-
-.align-t {
-  align-content: right;
+  border-color: white;
 }
 
 .posito {
@@ -160,61 +155,61 @@ header {
 }
 
 .btn {
-  background-color: #678AB9;
-  border-color: #678AB9;
+  background-color: #678ab9;
+  border-color: #678ab9;
   font-family: museo-sans, sans-serif;
   font-weight: 500;
 }
 
 .back-recipe {
-  background-color: #678AB9;
-  border-color: #678AB9;
+  background-color: #678ab9;
+  border-color: #678ab9;
   font-family: museo-sans, sans-serif;
   font-weight: 500;
 }
 
 .btn:hover {
   color: #fff;
-  background-color: #193A67;
-  border-color: #193A67;
+  background-color: #193a67;
+  border-color: #193a67;
 }
 
 @media only screen and (min-width: 38em) {
 
-.hide {
-  display: none;
-}
+  .hide {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 25em) {
 
-.hide-small {
-  display: none;
-}
+  .hide-small {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-.show-hide {
-  display: block;
-}
+  .show-hide {
+    display: block;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-.show-ho {
-  display: block;
-}
+  .show-ho {
+    display: block;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-.hide-l {
-  display: none;
-}
+  .hide-l {
+    display: none;
+  }
 
 }
